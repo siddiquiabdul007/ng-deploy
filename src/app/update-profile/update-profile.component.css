@@ -1,0 +1,70 @@
+/* update-profile.component.css */
+
+.update-profile-container {
+    text-align: center;
+    margin: 0 auto;
+    max-width: 400px;
+  }
+  
+  form {
+    background: #f7f7f7;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 20px;
+  }
+  
+  .form-group {
+    margin: 10px 0;
+    text-align: left;
+  }
+  
+  label {
+    display: block;
+  }
+  
+  input[type="file"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .button-group {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  button {
+    background: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  button[type="submit"] {
+    background: #007bff;
+  }
+  
+  button[type="button"] {
+    background: #ccc;
+  }
+  
+  button:hover {
+    background: #0056b3;
+  }
+  
+  button[type="submit"]:hover {
+    background: #0056b3;
+  }
+  
+  button[type="button"]:hover {
+    background: #999;
+  }
+  
